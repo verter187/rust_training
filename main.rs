@@ -1,9 +1,7 @@
-fn test() -> &str {
-    return "Hello, World";
-}
 fn main() {
-    if 5 > 3 {
-        println!(test());
-        println!("Hello, World!")
+    let mut a = 0;
+    for _ in 0..1000000000 {
+        a += 1;
     }
+    println!("num1={:?}", a);
 }
